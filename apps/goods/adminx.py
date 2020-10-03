@@ -33,7 +33,7 @@ class GoodsCategoryAdmin(object):
 
 
 class GoodsBrandAdmin(object):
-    list_display = ["category", "name"]
+    list_display = ["category", "name","brand_image"]
 
     def get_context(self):
         context = super(GoodsBrandAdmin, self).get_context()

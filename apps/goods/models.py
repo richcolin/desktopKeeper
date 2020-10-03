@@ -38,6 +38,7 @@ class GoodsCategoryBrand(models.Model):
     """
     category = models.ForeignKey(GoodsCategory, related_name='brands', null=True, blank=True, verbose_name="物品类目",on_delete=models.CASCADE)
     name = models.CharField(default="", max_length=30, verbose_name="品牌名", help_text="品牌名",blank=True, null=True)
+    brand_image = models.ImageField(upload_to="brand/images/", null=True, blank=True, verbose_name="实物图")
     add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")
 
     class Meta:
@@ -60,7 +61,7 @@ class Goods(models.Model):
     employee=models.ForeignKey(Employee, verbose_name="使用教师",null=True, blank=True)
     office=models.ForeignKey(Office,verbose_name='处室名称',null=True,blank=True)
     goods_brief = models.TextField(max_length=500, verbose_name="电脑简短描述")
-    goods_front_image = models.ImageField(upload_to="goods/images/", null=True, blank=True, verbose_name="封面图")
+    goods_front_image = models.ImageField(upload_to="goods/images/", null=True, blank=True, verbose_name="协议书")
     is_new = models.BooleanField(default=False, verbose_name="是否正在使用")
     add_time = models.DateTimeField(default=datetime.now, verbose_name="添加时间")
 
