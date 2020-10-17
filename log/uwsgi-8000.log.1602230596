@@ -1,0 +1,6 @@
+[pid: 3304|app: 0|req: 80/178] 127.0.0.1 () {34 vars in 715 bytes} [Fri Oct  9 16:03:13 2020] GET /xadminjsi18n/ => generated 4753 bytes in 6 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3306|app: 0|req: 35/179] 127.0.0.1 () {36 vars in 840 bytes} [Fri Oct  9 16:03:14 2020] GET /xadminuser_operation/office/ => generated 22265 bytes in 49 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+[pid: 3304|app: 0|req: 81/180] 127.0.0.1 () {34 vars in 725 bytes} [Fri Oct  9 16:03:14 2020] GET /xadminjsi18n/ => generated 4753 bytes in 5 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3307|app: 0|req: 65/181] 127.0.0.1 () {36 vars in 854 bytes} [Fri Oct  9 16:03:15 2020] GET /xadminuser_operation/employee/ => generated 26040 bytes in 55 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+[pid: 3304|app: 0|req: 82/182] 127.0.0.1 () {34 vars in 727 bytes} [Fri Oct  9 16:03:15 2020] GET /xadminjsi18n/ => generated 4753 bytes in 6 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+Fri Oct  9 16:03:16 2020 - logsize: 1081, triggering rotation to /home/ubuntu/desktopKeeper/log/uwsgi-8000.log.1602230596...

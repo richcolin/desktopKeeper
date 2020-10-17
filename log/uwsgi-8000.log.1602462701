@@ -1,0 +1,6 @@
+[pid: 3076|app: 0|req: 6/40] 127.0.0.1 () {36 vars in 814 bytes} [Mon Oct 12 08:31:25 2020] GET /xadmingoods/goodscategorybrand/3/detail/?_format=html => generated 1424 bytes in 150 msecs (HTTP/1.0 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3074|app: 0|req: 19/41] 127.0.0.1 () {34 vars in 716 bytes} [Mon Oct 12 08:31:25 2020] GET /media/brand/images/timg.jpg => generated 36395 bytes in 3 msecs via sendfile() (HTTP/1.0 200) 4 headers in 143 bytes (0 switches on core 0)
+[pid: 3077|app: 0|req: 17/42] 127.0.0.1 () {36 vars in 842 bytes} [Mon Oct 12 08:31:36 2020] GET /xadmingoods/goods/?_p_employee__id__exact=1 => generated 35062 bytes in 90 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+[pid: 3074|app: 0|req: 20/43] 127.0.0.1 () {34 vars in 702 bytes} [Mon Oct 12 08:31:36 2020] GET /xadminjsi18n/ => generated 4753 bytes in 8 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3077|app: 0|req: 18/44] 127.0.0.1 () {36 vars in 867 bytes} [Mon Oct 12 08:31:41 2020] GET /xadmingoods/goods/?_p_employee__id__exact=2 => generated 35062 bytes in 77 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+Mon Oct 12 08:31:41 2020 - logsize: 1175, triggering rotation to /home/ubuntu/desktopKeeper/log/uwsgi-8000.log.1602462701...

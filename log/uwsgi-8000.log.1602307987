@@ -1,0 +1,6 @@
+[pid: 3307|app: 0|req: 78/218] 127.0.0.1 () {44 vars in 991 bytes} [Sat Oct 10 13:26:06 2020] POST /xadminuser_operation/office/add/ => generated 171 bytes in 15 msecs (HTTP/1.0 200) 7 headers in 265 bytes (2 switches on core 0)
+[pid: 3304|app: 0|req: 99/219] 127.0.0.1 () {36 vars in 770 bytes} [Sat Oct 10 13:26:06 2020] GET /xadmingoods/goods/add/?_field=office&office=1 => generated 2116 bytes in 23 msecs (HTTP/1.0 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3307|app: 0|req: 79/220] 127.0.0.1 () {44 vars in 995 bytes} [Sat Oct 10 13:26:36 2020] POST /xadminuser_operation/employee/add/ => generated 175 bytes in 13 msecs (HTTP/1.0 200) 7 headers in 265 bytes (2 switches on core 0)
+[pid: 3304|app: 0|req: 100/221] 127.0.0.1 () {36 vars in 778 bytes} [Sat Oct 10 13:26:36 2020] GET /xadmingoods/goods/add/?_field=employee&employee=3 => generated 2202 bytes in 24 msecs (HTTP/1.0 200) 7 headers in 381 bytes (1 switches on core 0)
+[pid: 3304|app: 0|req: 101/222] 127.0.0.1 () {36 vars in 838 bytes} [Sat Oct 10 13:33:07 2020] GET /xadmingoods/goods/add/ => generated 22712 bytes in 145 msecs (HTTP/1.0 200) 7 headers in 382 bytes (1 switches on core 0)
+Sat Oct 10 13:33:07 2020 - logsize: 1171, triggering rotation to /home/ubuntu/desktopKeeper/log/uwsgi-8000.log.1602307987...

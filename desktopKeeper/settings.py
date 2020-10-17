@@ -27,7 +27,7 @@ SECRET_KEY = '1vn#)a^w6pmby17g(@d*nthril+=r(uhhtqueof#o@x!cu6ojq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 AUTH_USER_MODEL='users.UserProfile'
 # Application definition
 
@@ -129,10 +129,11 @@ USE_TZ = False   #默认是Ture，时间是utc时间，由于我们要用本地�
 STATIC_URL = '/static/'
 MEDIA_URL = "/media/"
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "static/"),
 )
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+#STATIC_ROOT=os.path.join(BASE_DIR,'static')
 REST_FRAMEWORK = {
     # 'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAdminUser', ),
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',  # 添加这一行解决，

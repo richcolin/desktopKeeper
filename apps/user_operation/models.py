@@ -19,14 +19,15 @@ class Office(models.Model):
 
 class Employee(models.Model):
     name = models.CharField(default="", max_length=30, verbose_name="教师名", help_text="教师名",unique=True)
-    phone=models.CharField(verbose_name="电话号码", help_text="电话号码", max_length=11, default='', blank=True, null=True)
+    #phone=models.CharField(verbose_name="电话号码", help_text="电话号码", max_length=11, default='', blank=True, null=True)
     # office = models.ForeignKey(Office, null=True, blank=True, verbose_name="处室名称",on_delete=models.CASCADE)
+    def __str__(self):
+        return self.name
     class Meta:
         verbose_name = "教师"
         verbose_name_plural = verbose_name
 
-    def __str__(self):
-        return self.name
+
 
 # class UserFav(models.Model):
 #     """

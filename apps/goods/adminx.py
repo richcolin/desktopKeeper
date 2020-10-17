@@ -16,9 +16,9 @@ from .models import Goods, GoodsCategory, GoodsCategoryBrand
 
 
 class GoodsAdmin(object):
-    list_display = ["name","employee","office","goods_brief", "is_new",  "add_time","brand"]
+    list_display = ["name","goods_sn","employee","office","goods_brief", "is_new",  "add_time","brand"]
     search_fields = ['name', ]
-    list_filter = ["name", "employee", "office","is_new", "add_time", "category__name","brand"]
+    list_filter = ["name","goods_sn", "employee", "office","is_new", "add_time", "category__name","brand"]
 
 
 
@@ -27,8 +27,8 @@ class GoodsAdmin(object):
 
 
 class GoodsCategoryAdmin(object):
-    list_display = ["name", "category_type", "add_time"]
-    list_filter = ["category_type",  "name"]
+    list_display = ["name", "category_type","add_time"]
+    list_filter = ["category_type", "name"]
     search_fields = ['name', ]
 
 
@@ -38,11 +38,10 @@ class GoodsBrandAdmin(object):
     def get_context(self):
         context = super(GoodsBrandAdmin, self).get_context()
         if 'form' in context:
-            context['form'].fields['category'].queryset = GoodsCategory.objects.filter(category_type=1)
+            context['form'].fields['category'].queryset = GoodsCategory.objects.all()
         return context
 
 
 xadmin.site.register(Goods, GoodsAdmin)
 xadmin.site.register(GoodsCategory, GoodsCategoryAdmin)
-
 xadmin.site.register(GoodsCategoryBrand, GoodsBrandAdmin)

@@ -1,0 +1,7 @@
+[pid: 3074|app: 0|req: 27/57] 127.0.0.1 () {34 vars in 684 bytes} [Tue Oct 13 08:27:10 2020] GET /favicon.ico => generated 3884 bytes in 8 msecs (HTTP/1.0 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3077|app: 0|req: 22/58] 127.0.0.1 () {36 vars in 818 bytes} [Tue Oct 13 08:27:11 2020] GET /xadmingoods/goods/ => generated 56732 bytes in 156 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+[pid: 3074|app: 0|req: 28/59] 127.0.0.1 () {34 vars in 664 bytes} [Tue Oct 13 08:27:11 2020] GET /xadminjsi18n/ => generated 4753 bytes in 9 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3077|app: 0|req: 23/60] 127.0.0.1 () {36 vars in 848 bytes} [Tue Oct 13 08:27:13 2020] GET /xadmingoods/goods/8/update/ => generated 23974 bytes in 137 msecs (HTTP/1.0 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 3074|app: 0|req: 29/61] 127.0.0.1 () {34 vars in 673 bytes} [Tue Oct 13 08:27:13 2020] GET /xadminjsi18n/ => generated 4753 bytes in 6 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3076|app: 0|req: 10/62] 127.0.0.1 () {34 vars in 745 bytes} [Tue Oct 13 08:27:13 2020] GET /media/goods/images/IMG_3106.JPG => generated 3523683 bytes in 38 msecs via sendfile() (HTTP/1.0 200) 4 headers in 145 bytes (0 switches on core 0)
+Tue Oct 13 08:27:14 2020 - logsize: 1308, triggering rotation to /home/ubuntu/desktopKeeper/log/uwsgi-8000.log.1602548834...

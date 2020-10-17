@@ -1,0 +1,9 @@
+[pid: 3304|app: 0|req: 49/100] 127.0.0.1 () {38 vars in 825 bytes} [Fri Oct  9 10:48:34 2020] GET /xadminuser_operation/employee/ => generated 22391 bytes in 50 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+[pid: 3307|app: 0|req: 37/101] 127.0.0.1 () {36 vars in 698 bytes} [Fri Oct  9 10:48:34 2020] GET /xadminjsi18n/ => generated 4753 bytes in 6 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3306|app: 0|req: 16/102] 127.0.0.1 () {30 vars in 478 bytes} [Fri Oct  9 10:48:34 2020] GET /favicon.ico => generated 3884 bytes in 5 msecs (HTTP/1.0 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3304|app: 0|req: 50/103] 127.0.0.1 () {38 vars in 857 bytes} [Fri Oct  9 10:48:36 2020] GET /xadminuser_operation/employee/add/ => generated 14829 bytes in 70 msecs (HTTP/1.0 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 3307|app: 0|req: 38/104] 127.0.0.1 () {36 vars in 702 bytes} [Fri Oct  9 10:48:36 2020] GET /xadminjsi18n/ => generated 4753 bytes in 8 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3304|app: 0|req: 51/105] 127.0.0.1 () {30 vars in 478 bytes} [Fri Oct  9 10:48:36 2020] GET /favicon.ico => generated 3884 bytes in 4 msecs (HTTP/1.0 404) 3 headers in 102 bytes (1 switches on core 0)
+Fri Oct  9 10:48:37 2020 - logsize: 1340, triggering rotation to /home/ubuntu/desktopKeeper/log/uwsgi-8000.log.1602211717...

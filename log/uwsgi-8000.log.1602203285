@@ -1,0 +1,8 @@
+[pid: 3306|app: 0|req: 9/65] 127.0.0.1 () {36 vars in 860 bytes} [Fri Oct  9 08:28:02 2020] GET /xadminuser_operation/employee/ => generated 22391 bytes in 56 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+[pid: 3304|app: 0|req: 33/66] 127.0.0.1 () {34 vars in 676 bytes} [Fri Oct  9 08:28:02 2020] GET /xadminjsi18n/ => generated 4753 bytes in 7 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3307|app: 0|req: 25/67] 127.0.0.1 () {36 vars in 862 bytes} [Fri Oct  9 08:28:03 2020] GET /xadminuser_operation/office/ => generated 22265 bytes in 55 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+[pid: 3304|app: 0|req: 34/68] 127.0.0.1 () {34 vars in 674 bytes} [Fri Oct  9 08:28:03 2020] GET /xadminjsi18n/ => generated 4753 bytes in 6 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3306|app: 0|req: 10/69] 127.0.0.1 () {36 vars in 840 bytes} [Fri Oct  9 08:28:04 2020] GET /xadmingoods/goods/ => generated 29894 bytes in 64 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+[pid: 3304|app: 0|req: 35/70] 127.0.0.1 () {34 vars in 664 bytes} [Fri Oct  9 08:28:04 2020] GET /xadminjsi18n/ => generated 4753 bytes in 6 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3307|app: 0|req: 26/71] 127.0.0.1 () {36 vars in 846 bytes} [Fri Oct  9 08:28:05 2020] GET /xadmingoods/goodscategory/ => generated 24803 bytes in 54 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+Fri Oct  9 08:28:05 2020 - logsize: 1513, triggering rotation to /home/ubuntu/desktopKeeper/log/uwsgi-8000.log.1602203285...

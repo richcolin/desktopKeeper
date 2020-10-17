@@ -1,0 +1,7 @@
+[pid: 3307|app: 0|req: 117/326] 127.0.0.1 () {34 vars in 686 bytes} [Sat Oct 10 15:46:49 2020] GET /xadminjsi18n/ => generated 4753 bytes in 8 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3304|app: 0|req: 149/327] 127.0.0.1 () {36 vars in 878 bytes} [Sat Oct 10 15:46:58 2020] GET /xadmingoods/goodscategorybrand/ => generated 30480 bytes in 65 msecs (HTTP/1.0 200) 8 headers in 513 bytes (1 switches on core 0)
+[pid: 3307|app: 0|req: 118/328] 127.0.0.1 () {34 vars in 677 bytes} [Sat Oct 10 15:46:58 2020] GET /xadminjsi18n/ => generated 4753 bytes in 6 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3306|app: 0|req: 57/329] 127.0.0.1 () {36 vars in 887 bytes} [Sat Oct 10 15:47:00 2020] GET /xadmingoods/goodscategorybrand/3/update/ => generated 20212 bytes in 83 msecs (HTTP/1.0 200) 7 headers in 382 bytes (1 switches on core 0)
+[pid: 3304|app: 0|req: 150/330] 127.0.0.1 () {34 vars in 686 bytes} [Sat Oct 10 15:47:00 2020] GET /xadminjsi18n/ => generated 4753 bytes in 6 msecs (HTTP/1.0 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3307|app: 0|req: 119/331] 127.0.0.1 () {36 vars in 805 bytes} [Sat Oct 10 15:47:00 2020] GET /media/brand/images/timg.jpg => generated 0 bytes in 2 msecs (HTTP/1.0 304) 2 headers in 77 bytes (0 switches on core 0)
+Sat Oct 10 15:47:01 2020 - logsize: 1318, triggering rotation to /home/ubuntu/desktopKeeper/log/uwsgi-8000.log.1602316021...

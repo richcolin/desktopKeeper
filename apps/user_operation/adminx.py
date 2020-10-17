@@ -18,7 +18,7 @@ from goods.models import Goods
 
 
 class EmployeeAdmin(object):
-    list_display=['name','phone']
+    list_display=['name',]
 class OfficeAdmin(object):
     list_display=['name']
 xadmin.site.register(Employee,EmployeeAdmin)
